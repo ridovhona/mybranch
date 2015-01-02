@@ -1,0 +1,30 @@
+<html>
+
+<body>
+<script language="javascript" type="text/javascript">
+/* Visit http://www.yaldex.com/ for full source code
+and get more free JavaScript, CSS and DHTML scripts! */
+<!-- Begin
+function go_to(url) {
+window.location=url;
+}
+function rand_link() {
+var a;
+//a = 1+Math.round(Math.random()*3);   // a = random number between 1-3
+if (a==5) go_to("downloads.html");
+else
+if (a==2) go_to("index.html");
+else
+if (a==3) go_to("downloads.html");
+else go_to("index.html");
+}
+// End -->
+</script>
+<center>
+<FORM NAME="myForm">
+<INPUT TYPE="button" NAME="myButton" VALUE="Random link"
+onClick="rand_link()">
+</FORM>
+</center>
+</body>
+</html>
